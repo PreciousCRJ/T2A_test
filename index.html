@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文生音效 主观质量测评系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>文生音效主观对比测评</h1>
+            <div class="guidelines">
+                <h3>测评说明：</h3>
+                <ul>
+                    <li><strong>MOS-Q (音频质量):</strong> 评价音频的清晰度、底噪及人声自然度。</li>
+                    <li><strong>MOS-F (内容忠实度):</strong> 评价音频内容与文本描述的匹配程度（是否漏词、幻听）。</li>
+                    <li><strong>评分标准:</strong> 20 (极差), 40 (较差), 60 (一般), 80 (良好), 100 (极好)。</li>
+                </ul>
+            </div>
+        </header>
+
+        <form id="survey-form">
+            <div id="questions-container">
+                </div>
+            <div class="actions">
+                <button type="submit" id="submit-btn">完成测评并下载 CSV 数据</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
