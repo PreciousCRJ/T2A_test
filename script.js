@@ -3,7 +3,7 @@
  */
 const config = {
     // 假设你有 4 个文件夹，分别存放不同模型的音频
-    folders: ["mmaudio", "mmaudioT5", "makeanaudio2", "keling"],
+    folders: ["mmaudio", "mmaudioT5", "makeanaudio2", "kling"],
     // 同样的文本，在四个文件夹里的文件名是一样的
     fileNames: [
             { file: "firewood_breaking_burning.wav", text: "柴火噼啪燃烧声" },
