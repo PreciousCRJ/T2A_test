@@ -77,7 +77,7 @@ config.fileNames.forEach((item, idx) => {
         // 这样提交时我们能知道用户评的是哪个模型
         html += `
             <div class="model-row">
-                <span class="sample-label">${m.folderName}</span>
+                <span class="sample-label">音频样本 ${mIdx + 1}</span>
                 <div class="audio-box"><audio controls src="${m.url}"></audio></div>
                 <div class="score-box">
                     <div class="input-group">
@@ -85,7 +85,7 @@ config.fileNames.forEach((item, idx) => {
                         <select name="Q|${idx}|${m.folderName}" required>${createOptions()}</select>
                     </div>
                     <div class="input-group">
-                        <label>MOS-F (忠实度)</label>
+                        <label>MOS-F (一致性)</label>
                         <select name="F|${idx}|${m.folderName}" required>${createOptions()}</select>
                     </div>
                 </div>
