@@ -26,7 +26,13 @@ const config = {
             { file: "audience_applause.wav", text: "综艺感观众喝彩声" },
             { file: "glass_shattering.wav", text: "玻璃杯掉到水泥地上摔碎的声音" },
             { file: "marble_rolling_wood.wav", text: "一颗弹珠在空旷的木质地板上快速滚动" },
-            { file: "crowd_cheering_roaring.wav", text: "人群集体欢呼声，带有夸张的尖叫、鼓掌和口哨声" }
+            { file: "crowd_cheering_roaring.wav", text: "人群集体欢呼声，带有夸张的尖叫、鼓掌和口哨声" },
+            { file: "A_child_yelling_as_a_young_boy_talks_during_several_slaps_on_a_hard_surface.wav", text: "一个小孩在喊叫，同时一个年轻男孩在说话，期间伴随着几次拍打坚硬表面的声音。" },
+            { file: "A_person_briefly_talks_followed_quickly_by_toilet_flushing_and_another_voice_from_another_person.wav", text: "一个人简短地说了几句，紧接着是马桶冲水声，随即传来另一个人的声音。" },
+            { file: "Ocean_waves_crashing_in_the_distance_as_young_girl_talks_followed_by_a_young_man_talking_while_a_group_of_children_laughs_in_the_background_and_wind_blows_into_a_microphone.wav", text: "远处海浪拍打着，一个小女孩在说话，随后是一个年轻男子说话，背景中有一群孩子在欢笑，同时风吹进了麦克风。" },
+            { file: "A_man_talking_followed_by_a_goat_baaing_then_a_metal_gate_sliding_while_ducks_quack_and_wind_blows_into_a_microphone.wav", text: "一个男人在说话，接着传来山羊的叫声，然后是金属大门滑动的声音，同时伴随着鸭子的嘎嘎叫声和风吹进麦克风的声音。" },
+            { file: "A_vehicle_door_opening_as_a_crow_caws_and_birds_chirp_while_vehicles_drive_by_in_the_background.wav", text: "车门打开的声音，伴随着乌鸦的啼叫和鸟儿的鸣叫，背景中有车辆驶过。" },
+            { file: "Gunshots_fire,_an_adult_male_speaks,_footfalls_and_clicking_occur_as_other_adult_males_speak,_gunshots_fire_again,_an_adult_male_speaks,_and_a_dog_growls.wav", text: "枪声响起，一名成年男子说话，伴随着脚步声和咔哒声，其他成年男子也在说话；随后枪声再次响起，一名成年男子说话，还有狗的咆哮声。" },
         ]
 };
 
